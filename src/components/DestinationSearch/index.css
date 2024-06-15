@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 30px;
+}
+
+.desti-items {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+.input-style {
+  height: 40px;
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .desti-items {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
+ul{
+  list-style: none;
+}
